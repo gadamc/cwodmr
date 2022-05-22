@@ -90,13 +90,14 @@ What's the best route to take?
 * Can use various visualization tools available in python with simple code base
 * Qudi code organization / design patterns
   * feels difficult to extend (GUI code and logic/hardware code not separated enough)
-    * GUI depends on QT/PySide2
   * may be more difficult for future QT3 students/users to maintain
 * Qudi documentation is not fully developed
 * main developer (former PhD student) has now moved on
   * uncertain future
+* to use Qudi, we would **still** need to write software for our hardware that fits into Qudi
 
 
-
-Uncertain which direction to go, but in the near-term, DIY won't be a wasted effort
+Uncertain which direction to recommend, but in the near-term, DIY won't be a wasted effort
 because would need to write that software anyways to go into Qudi.
+
+Perhaps Qudi will make more since after DIY attempt.
