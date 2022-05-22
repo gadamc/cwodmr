@@ -20,7 +20,7 @@
 
 <br><br>
 
-### Near Term Achievements
+### Near Term Goals
 * CW ODMR
 * Pulsed ODMR
 * Rabi
