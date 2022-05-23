@@ -116,7 +116,12 @@ time.sleep(0.50) # add artificial delay -- expect to shift location of MR freque
 ![DIY CW ODMR - delay of 0.50 seconds between start of scan and data acquisition](images/may23.2022/diy-cw-odmr-delta_t_0.50.png)
 
 
+<br><br><br>
+<br><br><br>
 
+
+
+# Next Steps
 
 * Adding hardware clock / trigger is immediate next step.
   * trigger start of RF scan to synchronize with start of acquisition
