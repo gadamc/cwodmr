@@ -41,8 +41,7 @@
 * Python
 * GUI
 
-### Insert Image of Qudi
-
+![Qudi CW ODMR](images/may23.2022/qudi-cw-odmr.jpg)
 
 
 <br><br><br>
