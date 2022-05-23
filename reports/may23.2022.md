@@ -1,6 +1,6 @@
 # Introduction
 
-# G. Adam Cox
+## G. Adam Cox
 
 * 2008
   * Ph.D. @ UW - neutrino physics (Sudbury Neutrion Observatory)
@@ -11,6 +11,7 @@
   * data science
 * Summer 2022 -- Sabbatical
 
+<br><br><br>
 <br><br><br>
 <br><br><br>
 
@@ -29,6 +30,7 @@
 
 <br><br><br>
 <br><br><br>
+<br><br><br>
 
 
 
@@ -45,12 +47,14 @@
 
 <br><br><br>
 <br><br><br>
+<br><br><br>
 
 # CW ODMR with Qudi
 
 ![Qudi CW ODMR](images/may23.2022/qudi-cw-odmr.jpg)
 
 
+<br><br><br>
 <br><br><br>
 <br><br><br>
 
@@ -63,6 +67,7 @@
 
 
 
+<br><br><br>
 <br><br><br>
 <br><br><br>
 
@@ -118,6 +123,7 @@ time.sleep(0.50) # add artificial delay -- expect to shift location of MR freque
 
 <br><br><br>
 <br><br><br>
+<br><br><br>
 
 
 
@@ -132,11 +138,14 @@ time.sleep(0.50) # add artificial delay -- expect to shift location of MR freque
 
 <br><br><br>
 <br><br><br>
+<br><br><br>
 
 
 # Qudi v. DIY
 
 What's the best route to take?
+
+My current (evolving) view is
 
 ### DIY
 * DIY software should be relatively simple
@@ -145,13 +154,13 @@ What's the best route to take?
 
 
 ### Qudi
-* Qudi not easy to follow
+* Qudi not easy to follow -- but maybe this is because I'm new
   * code organization / design patterns
-  * feels difficult to extend (GUI code and logic/hardware code not well separated)
-  * may be more difficult for future QT3 students/users to maintain
+  * feels difficult to extend
+  * may be difficult for future QT3 students/users to maintain
 * Qudi documentation is not fully developed
-* Does NOT free you from needing to know the details of how the hardware works!
-  * Trading lines of code to control hardware for qudi configuration file
+* Does not free you from needing to know the details of how the hardware works
+  * Trading lines of code to control hardware for lines in qudi configuration file
     * need to learn hardware control AND learn qudi code/configuration examples
 * main developer (former PhD student) has now moved on -- uncertain future
 
