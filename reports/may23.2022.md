@@ -41,7 +41,6 @@
 * Python
 * GUI
 
-![Qudi CW ODMR](images/may23.2022/qudi-cw-odmr.jpg)
 
 
 <br><br><br>
@@ -49,7 +48,7 @@
 
 # CW ODMR with Qudi
 
-<insert image>
+![Qudi CW ODMR](images/may23.2022/qudi-cw-odmr.jpg)
 
 
 <br><br><br>
@@ -57,7 +56,10 @@
 
 # CW DIY
 
-<insert image>
+
+![DIY CW ODMR](images/may23.2022/diy-cw-odmr.png)
+
+
 
 
 <br><br><br>
@@ -66,13 +68,60 @@
 # No Clock
 
 * No clock to synchronize hardware
-* To demonstrate - can add software delays to make it appear that the
-resonance frequency shifts.
 
-<insert images of shifting resonance>
+### Demonstration
+
+#### 0.20 seconds
+
+```python
+clock_task, data_task, data_reader = configure_tasks()
+
+rf_generator._write('g1')    #starts MW scan from beginning
+time.sleep(0.20) # add artificial delay -- expect to shift location of MR frequency in the data
+
+clock_task.start()
+data_task.start()
+
+read_samples = data_reader.read_many_sample_double(data_buffer, number_of_samples_per_channel=n_steps, timeout=read_write_timeout)
+
+```
+
+![DIY CW ODMR - delay of 0.20 seconds between start of scan and data acquisition](images/may23.2022/diy-cw-odmr-delta_t_0.20.png)
+
+#### 0.30 seconds
+
+```python
+time.sleep(0.30) # add artificial delay -- expect to shift location of MR frequency in the data
+```
+
+![DIY CW ODMR - delay of 0.30 seconds between start of scan and data acquisition](images/may23.2022/diy-cw-odmr-delta_t_0.30.png)
+
+
+#### 0.40 seconds
+
+```python
+time.sleep(0.40) # add artificial delay -- expect to shift location of MR frequency in the data
+```
+
+![DIY CW ODMR - delay of 0.40 seconds between start of scan and data acquisition](images/may23.2022/diy-cw-odmr-delta_t_0.40.png)
+
+
+#### 0.50 seconds
+
+```python
+time.sleep(0.50) # add artificial delay -- expect to shift location of MR frequency in the data
+```
+
+![DIY CW ODMR - delay of 0.50 seconds between start of scan and data acquisition](images/may23.2022/diy-cw-odmr-delta_t_0.50.png)
+
+
 
 
 * Adding hardware clock / trigger is immediate next step.
+  * trigger start of RF scan to synchronize with start of acquisition
+  * more reading of NI/Windfreak documentation
+
+
 
 
 
