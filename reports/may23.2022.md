@@ -58,7 +58,7 @@
 <br><br><br>
 <br><br><br>
 
-# CW DIY
+# CW ODMR -- DIY
 
 [Jupyter Notebook Code](../cwodmr/my_cwodmr_v1.ipynb)
 
