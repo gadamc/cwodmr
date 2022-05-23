@@ -123,8 +123,7 @@ time.sleep(0.50) # add artificial delay -- expect to shift location of MR freque
 
 # Next Steps
 
-* Adding hardware clock / trigger is immediate next step.
-  * trigger start of RF scan to synchronize with start of acquisition
+* Add hardware clock / trigger.
   * more reading of NI/Windfreak documentation
 
 
@@ -139,19 +138,24 @@ time.sleep(0.50) # add artificial delay -- expect to shift location of MR freque
 
 What's the best route to take?
 
+### DIY
 * DIY software should be relatively simple
   * based on `nidaqmx`
-* Can use various visualization tools available in python with simple code base
-* Qudi code organization / design patterns
-  * feels difficult to extend (GUI code and logic/hardware code not separated enough)
+* Many python visualization tools
+
+
+### Qudi
+* Qudi not easy to follow
+  * code organization / design patterns
+  * feels difficult to extend (GUI code and logic/hardware code not well separated)
   * may be more difficult for future QT3 students/users to maintain
 * Qudi documentation is not fully developed
-* main developer (former PhD student) has now moved on
-  * uncertain future
-* to use Qudi, we would **still** need to write software for our hardware that fits into Qudi
+* Does NOT free you from needing to know the details of how the hardware works!
+  * Trading lines of code to control hardware for qudi configuration file
+    * need to learn hardware control AND learn qudi code/configuration examples
+* main developer (former PhD student) has now moved on -- uncertain future
 
 
-Uncertain which direction to recommend, but in the near-term, DIY won't be a wasted effort
-because would need to write that software anyways to go into Qudi.
+Uncertain which direction to recommend, but in the near-term, DIY doesn't seem to be a wasted effort.
 
 Perhaps Qudi will make more since after DIY attempt.
