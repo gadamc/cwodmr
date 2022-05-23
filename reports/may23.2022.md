@@ -155,16 +155,13 @@ My current (evolving) view is
 
 ### Qudi
 * Qudi not easy to follow -- but maybe this is because I'm new
-  * code organization / design patterns
   * feels difficult to extend
   * may be difficult for future QT3 students/users to maintain
 * Qudi documentation is not fully developed
 * Does not free you from needing to know the details of how the hardware works
-  * Trading lines of code to control hardware for lines in qudi configuration file
-    * need to learn hardware control AND learn qudi code/configuration examples
-* main developer (former PhD student) has now moved on -- uncertain future
-
+  * need to learn hardware control AND learn qudi code/configuration examples
+* main developer (former PhD student) has now moved on -- uncertain future?
 
 Uncertain which direction to recommend, but in the near-term, DIY doesn't seem to be a wasted effort.
 
-Perhaps Qudi will make more since after DIY attempt.
+Perhaps Qudi will make more since after DIY.
