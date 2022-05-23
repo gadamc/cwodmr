@@ -2,13 +2,9 @@
 
 ## G. Adam Cox
 
-* 2008
-  * Ph.D. @ UW - neutrino physics (Sudbury Neutrion Observatory)
-* 2008-2013
-  * postdocs - dark matter detection (EDELWEISS - France/Germany)
-  * teaching
-* 2013 - industry (Seattle)
-  * data science
+* 2008 Ph.D. @ UW - neutrino physics (Sudbury Neutrino Observatory)
+* 2008-2013  teaching/postdocs - neutrinos, dark matter detection (EDELWEISS - France/Germany)
+* 2013 data science industry (Seattle)
 * Summer 2022 -- Sabbatical
 
 <br><br><br>
@@ -63,7 +59,6 @@
 [Jupyter Notebook Code](../cwodmr/my_cwodmr_v1.ipynb)
 
 ![DIY CW ODMR](images/may23.2022/diy-cw-odmr.png)
-
 
 
 
@@ -132,8 +127,9 @@ time.sleep(0.50) # add artificial delay -- expect to shift location of MR freque
 * Add hardware clock / trigger.
   * more reading of NI/Windfreak documentation
 
+## Quantum Controller Sapphire Pulser
 
-
+https://github.com/gadamc/qcsapphire -- small wrapper to send/receive commands to pulser over USB
 
 
 <br><br><br>
