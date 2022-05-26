@@ -13,6 +13,8 @@
 
 # Primary Goal
 #### General Purpose Community Microscope
+#### Single NV center MR
+#### 2-qubit Control System
 #### Easily Maintainable
 
 <br><br>
@@ -35,6 +37,9 @@
 * Developed by Inst. for Quantum Optics @ Ulm University
 * General Purpose to support many different hardware
 * Configuration Files to define specific setup
+  * Example:
+    * NI Card - device name "Dev1", digital channel "PFI0", clock channel, etc. 
+    * MW source - serial port
 * Extensible
 * Python
 * GUI
@@ -160,4 +165,4 @@ My current (evolving) view is
 
 Uncertain which direction to recommend, but in the near-term, DIY doesn't seem to be a wasted effort.
 
-Perhaps Qudi will make more since after DIY.
+Perhaps Qudi will make more sence after DIY.
